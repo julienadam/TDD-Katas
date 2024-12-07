@@ -3,9 +3,9 @@
 using System;
 using System.Text;
 
-namespace TDD_Katas_project.LCDDigits
+namespace TDD_Katas_project
 {
-    class LCDDigits
+    public class LCDDigits
     {
         private static readonly int DIGIT_HEIGHT_DIMENSION = 1;
         private static readonly string[,] LcdDigitsMap = {
@@ -42,7 +42,7 @@ namespace TDD_Katas_project.LCDDigits
         };
 
 
-        internal static string GetDigits(int number)
+        public static string GetDigits(int number)
         {
             var output = new StringBuilder();
             char[] numberArray = ConvertIntegerToArray(number);

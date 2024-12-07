@@ -22,7 +22,7 @@ Example: 910
 
  */
 
-namespace TDD_Katas_project.LCDDigits
+namespace TDD_Katas_project
 {
 #pragma warning disable 1591
     [TestFixture]

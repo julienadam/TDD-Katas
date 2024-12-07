@@ -1,30 +1,28 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29911.84
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TDD-Katas", "src\TDD-Katas.csproj", "{88882C78-E250-4041-8234-CD56ECAF461C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDD_Katas", "src\TDD_Katas.csproj", "{BDCD7EA6-A49A-4076-9BD9-EA93D56A7734}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5FAE43B0-8B09-4EB0-84EF-4ADAF6573961}"
-	ProjectSection(SolutionItems) = preProject
-		.editorconfig = .editorconfig
-	EndProjectSection
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDD-Katas.UnitTests", "tests\TDD-Katas.UnitTests.csproj", "{F9E4A698-13CF-4137-ADCC-D5302FBB40C8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{88882C78-E250-4041-8234-CD56ECAF461C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{88882C78-E250-4041-8234-CD56ECAF461C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{88882C78-E250-4041-8234-CD56ECAF461C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{88882C78-E250-4041-8234-CD56ECAF461C}.Release|Any CPU.Build.0 = Release|Any CPU
-	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {876B42E4-901C-4932-AFE4-D48E5830C3D3}
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BDCD7EA6-A49A-4076-9BD9-EA93D56A7734}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDCD7EA6-A49A-4076-9BD9-EA93D56A7734}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDCD7EA6-A49A-4076-9BD9-EA93D56A7734}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDCD7EA6-A49A-4076-9BD9-EA93D56A7734}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9E4A698-13CF-4137-ADCC-D5302FBB40C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9E4A698-13CF-4137-ADCC-D5302FBB40C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9E4A698-13CF-4137-ADCC-D5302FBB40C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9E4A698-13CF-4137-ADCC-D5302FBB40C8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

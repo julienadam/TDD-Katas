@@ -19,7 +19,7 @@ namespace TDD_Katas_project.StringSum
         /// <param name="expectedResult">The expected result.</param>
         [TestCase("", null, "0")]
         [Test]
-        public void AddReturnSum(string num1, string num2, string expectedResult)
+        public void AddReturnSum(string num1, string? num2, string expectedResult)
         {
             var result = StringSumKata.Sum(num1, num2);
 

@@ -3,12 +3,12 @@
 
 namespace TDD_Katas_project.MineFields
 {
-    internal static class Constants
+    public static class Constants
     {
         public const int Mine = -1;
     }
 
-    internal class MineFields
+    public class MineFields
     {
         int[,] _fields;
 
@@ -16,7 +16,7 @@ namespace TDD_Katas_project.MineFields
 
         public int GetHint(int xPos, int yPos) => _fields[xPos, yPos];
 
-        internal void Mine(int xPos, int yPos)
+        public void Mine(int xPos, int yPos)
         {
             LayMine(xPos, yPos);
             UpdateHint(xPos, yPos);

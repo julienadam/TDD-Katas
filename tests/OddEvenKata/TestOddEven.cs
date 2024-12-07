@@ -32,7 +32,7 @@ namespace TDD_Katas_project.OddEvenKata
             var actualresult = OddEven.PrintSingleOddEven(number);
             Assert.That(expectedresult, Is.EqualTo(actualresult),
                         string.Format("result of entered number [{0}] is [{1}] but it should be [{2}]", number,
-                                      actualresult, expectedresult));
+                                        actualresult, expectedresult));
         }
     }
 }

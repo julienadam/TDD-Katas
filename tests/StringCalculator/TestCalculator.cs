@@ -20,7 +20,7 @@ namespace TDD_Katas_project.StringCalculator
         [TestCase("")]
         [TestCase(null)]
         [Test]
-        public void AddReturnZeroWhenSuppliedEmptyOrNullString(string numbers)
+        public void AddReturnZeroWhenSuppliedEmptyOrNullString(string? numbers)
         {
             var result = Calculator.Add(numbers);
             Assert.That(result, Is.EqualTo(0));
