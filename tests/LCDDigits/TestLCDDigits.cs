@@ -32,9 +32,9 @@ namespace TDD_Katas_project
         [Test]
         public void digit_the_number_0()
         {
-            string expect = "._." + "\r\n" +
-                            "|.|" + "\r\n" +
-                            "|_|" + "\r\n";
+            string expect = "._." + Environment.NewLine +
+                            "|.|" + Environment.NewLine +
+                            "|_|" + Environment.NewLine;
 
             Assert.That(LCDDigits.GetDigits(0), Is.EqualTo(expect));
         }
@@ -42,9 +42,9 @@ namespace TDD_Katas_project
         [Test]
         public void digit_the_number_1()
         {
-            string expect = "..." + "\r\n" +
-                            "..|" + "\r\n" +
-                            "..|" + "\r\n";
+            string expect = "..." + Environment.NewLine +
+                            "..|" + Environment.NewLine +
+                            "..|" + Environment.NewLine;
 
             Assert.That(LCDDigits.GetDigits(1), Is.EqualTo(expect));
         }
@@ -52,9 +52,9 @@ namespace TDD_Katas_project
         [Test]
         public void digit_the_number_10()
         {
-            string expect = "..." + "._." + "\r\n" +
-                            "..|" + "|.|" + "\r\n" +
-                            "..|" + "|_|" + "\r\n";
+            string expect = "..." + "._." + Environment.NewLine +
+                            "..|" + "|.|" + Environment.NewLine +
+                            "..|" + "|_|" + Environment.NewLine;
 
             Assert.That(LCDDigits.GetDigits(10), Is.EqualTo(expect));
         }
@@ -62,9 +62,9 @@ namespace TDD_Katas_project
         [Test]
         public void digit_the_number_100()
         {
-            string expect = "..." + "._." + "._." + "\r\n" +
-                            "..|" + "|.|" + "|.|" + "\r\n" +
-                            "..|" + "|_|" + "|_|" + "\r\n";
+            string expect = "..." + "._." + "._." + Environment.NewLine +
+                            "..|" + "|.|" + "|.|" + Environment.NewLine +
+                            "..|" + "|_|" + "|_|" + Environment.NewLine;
 
             Assert.That(LCDDigits.GetDigits(100), Is.EqualTo(expect));
         }
